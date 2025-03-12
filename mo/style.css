@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div {
+    margin-right: 60px;
+}
+
+button {
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button#sim {
+    margin: 10px;
+}
+
+button#nao {
+    position: absolute;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    max-width: 100%;
+}
