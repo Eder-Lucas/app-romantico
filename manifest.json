@@ -1,0 +1,37 @@
+{
+    "short-name": "MiAmor",
+    "name": "MiAmor",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "para meu amorzinho",
+    "icons": [
+        {
+            "src": "images/coracao.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+            
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "images/screenshot-desktop.png",
+            "sizes": "1920x970",
+            "type": "image/png",
+            "form_factor": "wide"
+
+        },
+        {
+            "src": "images/screenshot-mobile.png",
+            "sizes": "626x830",
+            "type": "image/png",
+            "form_factor": "narrow"
+
+        }
+    ]
+
+}
