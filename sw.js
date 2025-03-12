@@ -9,7 +9,7 @@ self.addEventListener('install', function (event) {
                 './manifest.json',
                 './index.js',
                 './script.js',
-                'style.css',
+                './style.css',
                 './images'
             ])
         })
