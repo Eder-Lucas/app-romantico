@@ -1,4 +1,4 @@
-const cacheName = 'miAmor'
+const cacheName = 'miAmor-v1'
 
 self.addEventListener('install', function (event) {
     event.waitUntil(
@@ -10,7 +10,8 @@ self.addEventListener('install', function (event) {
                 './index.js',
                 './script.js',
                 './style.css',
-                './images'
+                './images/gif-fofinho-heart.gif',
+                './images/hug-me-im-sad.gif'
             ])
         })
     )
@@ -25,7 +26,7 @@ self.addEventListener('fetch', async e => {
     const req = e.request
     const url = new URL(req.url)
 
-    if (url.login === location.origin) {
+    if (url.origin === location.origin) {
         e.respondWith(cacheFirst(req))
     } else {
         e.respondWith(networkAndCache(req))
