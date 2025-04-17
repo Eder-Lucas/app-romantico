@@ -1,5 +1,7 @@
-const cacheName = 'miAmor-v1'
+const cacheName = 'miAmor-v1' //nome do cache
 
+//INSTALL
+//armazena os arquivos em cache
 self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open(cacheName).then(function (cache) {
